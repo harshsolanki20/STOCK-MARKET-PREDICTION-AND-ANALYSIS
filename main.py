@@ -214,23 +214,3 @@ with news:
         st.write(f'News Sentiment {news_sentiment}')
 
 
-st.write('----------------------------------------------------------------------------------------------')
-st.write("### About me:")
-st.write("<p style='color:red; font-weight:bold; font-size:50px;'>Mehul Chauhan</p>",unsafe_allow_html=True)
-st.write("## Connect with me on social media")
-import streamlit as st
-
-linkedin_url = "https://img.icons8.com/color/48/000000/linkedin.png"
-github_url = "https://img.icons8.com/color/48/000000/github.png"
-instagram_url = "https://img.icons8.com/color/48/000000/instagram-new.png"
-linkedin_redirect_url = "https://www.linkedin.com/in/mehul-chauhan-5950481ba/"
-github_redirect_url = "https://github.com/mehul2612"
-instagram_redirect_url = "https://www.instagram.com/mehul._.26/?next=%2F"
-
-st.markdown(
-    f'<a href="{github_redirect_url}"><img src="{github_url}" width="60" height="60"></a>'
-    f'<a href="{linkedin_redirect_url}"><img src="{linkedin_url}" width="60" height="60"></a>'
-    f'<a href="{instagram_redirect_url}"><img src="{instagram_url}" width="60" height="60"></a>',
-    unsafe_allow_html=True
-)
-st.write('----------------------------------------------------------------------------------------------')
